@@ -1,7 +1,6 @@
 import { createNativeStackNavigator } from '@react-navigation/native-stack'
 
-
-import Identified from '../screens/Identified'
+import Identification from '../screens/Identification'
 
 export default function AuthRoutes() {
 
@@ -9,7 +8,7 @@ export default function AuthRoutes() {
 
     return (
         <Stack.Navigator screenOptions={{ headerShown: false }}>
-            <Stack.Screen name='Identified' component={Identified} />
+            <Stack.Screen name='Identified' component={Identification} />
         </Stack.Navigator>
     )
 }
