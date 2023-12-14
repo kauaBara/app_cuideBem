@@ -1,7 +1,7 @@
 
 const CreateUserService = async () => {
     
-    return { ok: true }
+    return { message: 'Ok' }
 }
 
 export default CreateUserService;
