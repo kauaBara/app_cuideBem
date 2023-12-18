@@ -8,7 +8,6 @@ export default function AuthRoutes() {
 
     return (
         <Stack.Navigator screenOptions={{ headerShown: false }}>
-              <Stack.Screen name='Splash' component={Splash} />
             <Stack.Screen name='Identification' component={Identification} />
         </Stack.Navigator>
     )
