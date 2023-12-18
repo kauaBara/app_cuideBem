@@ -9,6 +9,7 @@ export default function AuthRoutes() {
     const Stack = createNativeStackNavigator()
 
     return (
+
         <Stack.Navigator>
             <Stack.Screen name='Splash' component={Splash} />
             <Stack.Screen name='Identification' component={Identification} />
