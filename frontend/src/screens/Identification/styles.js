@@ -3,24 +3,26 @@ import { StyleSheet } from "react-native";
 export const Style = StyleSheet.create({
     BlocoImages:{
         flexDirection:"row",
-        marginTop:"88%", 
+        marginTop:"70%", 
         flexWrap:"wrap",
         justifyContent:"space-evenly",
     },
     textaligh:{
-        marginLeft:20,
+        marginLeft:13,
         marginTop:10
     },
 
-    fontsize:{
+   title :{
+        fontFamily:'Poppins-Regular',
         fontSize:20
     },
 
     logo:{
     alignContent:"center",
     alignSelf:"center",
-    height:200,
-    marginTop:80
+    height:180,
+    width:180,
+    marginTop:45
     }
 
     
