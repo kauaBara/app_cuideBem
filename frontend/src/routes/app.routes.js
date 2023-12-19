@@ -1,13 +1,25 @@
 import { createNativeStackNavigator } from '@react-navigation/native-stack'
-import Home from '../screens/Guardian/Home'
+
+import HomeDoctor from '../screens/Doctor/HomeDoctor'
+import HomeGuardian from '../screens/Guardian/HomeGuardian'
+import HomeCaregiver from '../screens/Caregiver/HomeCaregiver'
 
 export default function AppRoutes() {
 
     const Stack = createNativeStackNavigator()
 
     return (
-        <Stack.Navigator screenOptions={{ headerShown: false }}>
-            <Stack.Screen name='HomeGuardian' component={Home} />
+        <Stack.Navigator>
+
+            <Stack.Screen 
+                name='HomeDoctor' 
+                component={HomeDoctor}
+                options={{
+                    headerShown: false
+                }}
+                />
+                
+            <Stack.Screen name='HomeGuardian' component={HomeGuardian} />
         </Stack.Navigator>
     )
 }
