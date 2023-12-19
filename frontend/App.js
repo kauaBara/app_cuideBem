@@ -2,6 +2,7 @@ import { NavigationContainer } from '@react-navigation/native'
 import { useCallback } from 'react';
 import Routes from './src/routes';
 import { useFonts } from 'expo-font';
+import LoginDoctor from './src/screens/loginDoctor';
 
 export default function App() {
   const [fontsLoaded] = useFonts({
@@ -19,9 +20,7 @@ export default function App() {
   }
 
   return (
-    <NavigationContainer>
-      <Routes />
-    </NavigationContainer>
+   <LoginDoctor/> 
   );
 }
 

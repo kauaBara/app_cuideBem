@@ -1,9 +1,10 @@
-import { Text, View } from 'react-native'
+import { Text, View,Image } from 'react-native'
+import{Background} from '../../../components/Background'
 
 export default function Home() {
     return (
-        <View>
-            <Text>Tela Home do Cuidador</Text>
+        <View style={Background.Background}>
+        
         </View>
     )
 }
