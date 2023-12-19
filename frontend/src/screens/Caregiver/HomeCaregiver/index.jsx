@@ -1,10 +1,9 @@
 import { Text, View } from 'react-native'
 
-export default function Home() {
-
+export default function HomeCaregiver() {
     return (
         <View>
-            <Text>Tela Home Guardião</Text>
+            <Text>Tela Home do Cuidador</Text>
         </View>
     )
 }
